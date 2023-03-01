@@ -11,5 +11,6 @@ const MealsItem=(props)=>{
             <div></div>
         </li>
     )
+    
 }
 export default MealsItem;

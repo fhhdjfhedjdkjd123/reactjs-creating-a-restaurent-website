@@ -8,5 +8,6 @@ const Meals=()=>{
             <AvailableMeals></AvailableMeals>
         </Fragment>
     )
+    
 }
 export default Meals;
