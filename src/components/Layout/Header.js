@@ -4,6 +4,7 @@ import mealsImage from '../../assets/meals.png';
 import HeaderCartButton from "./HeaderCartButton";
 
 
+
 const Header = (props)=>{
     return(
         <Fragment>
@@ -12,7 +13,7 @@ const Header = (props)=>{
                 <HeaderCartButton></HeaderCartButton>
             </header>
             <div className={classes['main-image']}>
-                <img src={mealsImage} alt="meals img is loading"/>
+                <img src={mealsImage} alt="meals img is loading..."/>
             </div>
         </Fragment>
     );
